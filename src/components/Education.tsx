@@ -38,7 +38,7 @@ const Title = styled.div`
   font-family: "CormorantGaramond-Regular";
   font-size: 25px;
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
   margin-bottom: 24px;
 `;
 const Divider = styled.div`
