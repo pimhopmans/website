@@ -1,0 +1,44 @@
+[
+  {
+    "function": "Lead developer",
+    "company": "Bike Labyrinth",
+    "date": "August 2022 - present",
+    "location": "The Hague, The Netherlands",
+    "text": "Technical lead of the in-house software development team at Bike Labyrinth. Projects include porting the current b2b software to React Native, developing the Bike Labyrinth Home app, maintaining the Bike Labyrinth website and managing a team developers."
+  },
+  {
+    "function": "Freelance software developer",
+    "company": "Hopmans Development & Consultancy",
+    "date": "February 2022 - present",
+    "location": "Utrecht, The Netherlands",
+    "text": "Independent software developer with a preference for web and app development or implementing AI and Machine Learning models. I am interested in jobs that require a keen eye, critical thinking and are socially responsible."
+  },
+  {
+    "function": "Educator",
+    "company": "Hiro",
+    "date": "August 2022 - December 2022",
+    "location": "Utrecht, The Netherlands",
+    "text": "Part-time job as an educator for new developers and interns that joined Hiro. Responsibilities include mentoring and coaching the new developers and maintaining the education programme."
+  },
+  {
+    "function": "Developer",
+    "company": "Hiro",
+    "date": "May 2019 - July 2022",
+    "location": "Utrecht, The Netherlands",
+    "text": "Reponsible for the development of several React frontend projects, including a new UI for the NPO Start CMS, a form management system for Nedap Healthcare and a voice assistant prototype for the NPO Start app. Also mentored interns from time to time."
+  },
+  {
+    "function": "Teaching assistant",
+    "company": "Utrecht University",
+    "date": "April 2017 - Jan 2019",
+    "location": "Utrecht, The Netherlands",
+    "text": "Responsible for leading work groups for several courses such as Introduction to Linguistics, Computational Linguistics and Semantics"
+  },
+  {
+    "_function": "Bar manager",
+    "_company": "Eventure B.V. & LOC7000",
+    "_date": "September 2018 - present",
+    "_location": "Nijmegen, The Netherlands",
+    "_text": "Responsible for managing a bar, including supply, taking care of the employees, function as a short line with security and first aid and fixing immediate technical issues at several festivals and events throughout the Netherlands."
+  }
+]

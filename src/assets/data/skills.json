@@ -1,0 +1,39 @@
+{
+  "programming_languages": [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Ruby on Rails",
+    "Java",
+    "Haskell",
+    "Prolog",
+    "HTML/CSS"
+  ],
+  "frameworks": ["React", "React Native", "Next.js", "Vite", "Vue", "FastAPI"],
+  "libraries": [
+    "axios",
+    "moment",
+    "react-native-video",
+    "react-native-purchases",
+    "redux",
+    "redux-persist",
+    "styled-components",
+    "formik",
+    "NumPy",
+    "Pandas"
+  ],
+  "databases": ["MySQL", "PostgreSQL", "Firestore", "Elasticsearch"],
+  "services": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Google Cloud Platform",
+    "Firebase",
+    "Fly.io",
+    "Strapi",
+    "MapBox",
+    "RevenueCat",
+    "Google Play Console",
+    "Appstore Connect"
+  ]
+}
