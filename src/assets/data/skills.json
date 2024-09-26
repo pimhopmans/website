@@ -28,6 +28,7 @@
     "GitHub",
     "GitLab",
     "Google Cloud Platform",
+    "Cloud Functions",
     "Firebase",
     "Fly.io",
     "Strapi",
@@ -35,5 +36,6 @@
     "RevenueCat",
     "Google Play Console",
     "Appstore Connect"
-  ]
+  ],
+  "other": ["serverless backends"]
 }

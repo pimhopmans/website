@@ -58,6 +58,16 @@ export const Skills = () => {
             ))}
           </SkillContainer>
         </SkillSection>
+
+        <SkillSection>
+          <Label>Other</Label>
+
+          <SkillContainer>
+            {skills.other.map((skill) => (
+              <Skill>{skill}</Skill>
+            ))}
+          </SkillContainer>
+        </SkillSection>
       </Body>
     </Container>
   );
