@@ -27,6 +27,18 @@ body {
   box-sizing: border-box;
 }
 
+// Global print preview styles
+@media print {
+  @page {
+    size: auto;   /* auto is the initial value */
+    margin: 0mm;  /* this affects the margin in the printer settings */
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+   }
+}
+
 @font-face {
   font-family: 'Montserrat-Black';
   font-weight: normal;

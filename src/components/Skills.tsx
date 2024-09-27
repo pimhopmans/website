@@ -29,15 +29,17 @@ export const Skills = () => {
           </SkillContainer>
         </SkillSection>
 
-        <SkillSection>
-          <Label>Libraries</Label>
+        <Print>
+          <SkillSection>
+            <Label>Libraries</Label>
 
-          <SkillContainer>
-            {skills.libraries.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
+            <SkillContainer>
+              {skills.libraries.map((skill) => (
+                <Skill>{skill}</Skill>
+              ))}
+            </SkillContainer>
+          </SkillSection>
+        </Print>
 
         <SkillSection>
           <Label>Databases</Label>
@@ -82,6 +84,13 @@ const Container = styled.div`
     width: 300px;
     padding: 50px 0;
   }
+
+  @media print {
+    width: 300px;
+    padding: 0;
+    padding-top: 50px;
+    margin-right: 50px;
+  }
 `;
 const Title = styled.div`
   display: flex;
@@ -116,4 +125,10 @@ const SkillContainer = styled.div`
 const Skill = styled.div`
   line-height: 20px;
   padding: 5px 10px;
+`;
+const Print = styled.div`
+  @media print {
+    margin-top: 100px;
+    padding-top: 40px;
+  }
 `;

@@ -31,6 +31,12 @@ const Container = styled.div`
     width: 300px;
     padding: 50px 0;
   }
+
+  @media print {
+    width: 300px;
+    padding: 0;
+    margin-right: 50px;
+  }
 `;
 const Title = styled.div`
   display: flex;

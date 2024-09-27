@@ -37,4 +37,12 @@ const Image = styled.img`
     width: 200px;
     margin: 0 auto;
   }
+
+  @media print {
+    position: absolute;
+    top: 125px;
+    right: 65px;
+    width: 190px;
+    margin: 0 auto;
+  }
 `;

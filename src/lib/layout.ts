@@ -11,7 +11,7 @@ export const breakPoints: { [key in BreakPoint]: number } = {
   [BreakPoint.s]: 699,
   [BreakPoint.m]: 700,
   [BreakPoint.l]: 1000,
-  [BreakPoint.xl]: 1374,
+  [BreakPoint.xl]: 1513,
 };
 
 export const isMobile = window.innerWidth < breakPoints[BreakPoint.s];

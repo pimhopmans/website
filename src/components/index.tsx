@@ -1,5 +1,6 @@
 import { About } from "./About";
 import { Bio } from "./Bio";
+import { Contact } from "./Contact";
 import { Education } from "./Education";
 import { Experience } from "./Experience";
 import { Footer } from "./Footer";
@@ -12,6 +13,7 @@ import { Skills } from "./Skills";
 export {
   About,
   Bio,
+  Contact,
   Education,
   Experience,
   Footer,
