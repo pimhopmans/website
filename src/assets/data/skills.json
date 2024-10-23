@@ -1,7 +1,9 @@
 {
+  "languages": ["Dutch", "English"],
   "programming_languages": [
     "JavaScript",
     "TypeScript",
+    "Node.js",
     "Python",
     "Ruby on Rails",
     "Java",
@@ -28,7 +30,9 @@
     "GitHub",
     "GitLab",
     "Google Cloud Platform",
+    "Cloud Run",
     "Cloud Functions",
+    "Cloud Places API",
     "Firebase",
     "Fly.io",
     "Strapi",

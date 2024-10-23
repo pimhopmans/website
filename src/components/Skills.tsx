@@ -10,6 +10,16 @@ export const Skills = () => {
       </Title>
       <Body>
         <SkillSection>
+          <Label>Languages</Label>
+
+          <SkillContainer>
+            {skills.languages.map((skill) => (
+              <Skill>{skill}</Skill>
+            ))}
+          </SkillContainer>
+        </SkillSection>
+
+        <SkillSection>
           <Label>Programming languages</Label>
 
           <SkillContainer>
