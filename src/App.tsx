@@ -24,10 +24,8 @@ const App = () => {
           <Bio />
           <About />
           <Experience />
-          <Print>
-            <Education />
-            <Skills />
-          </Print>
+          <Education />
+          <Skills />
           <Contact />
           <Footer />
         </LeftContainer>
@@ -60,10 +58,6 @@ const Left = styled.div`
   ${media(BreakPoint.s)} {
     width: 100%;
   }
-
-  @media print {
-    width: 100%;
-  }
 `;
 const Right = styled.div`
   width: 50%;
@@ -75,26 +69,10 @@ const Right = styled.div`
     rgba(184, 165, 206, 1) 0%,
     rgba(117, 80, 166, 1) 100%
   );
-
-  @media print {
-    width: 0%;
-  }
 `;
 const LeftContainer = styled.div`
   width: 600px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-
-  @media print {
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-`;
-const Print = styled.div`
-  @media print {
-    display: flex;
-    flex-direction: column;
-  }
 `;

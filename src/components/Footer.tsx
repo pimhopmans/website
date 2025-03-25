@@ -16,9 +16,6 @@ const Container = styled.div`
   ${media(BreakPoint.s)} {
     width: 300px;
   }
-  @media print {
-    display: none;
-  }
 `;
 const Body = styled.div`
   display: flex;

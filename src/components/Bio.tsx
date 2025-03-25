@@ -15,14 +15,6 @@ export const Bio = () => {
           <Label>Email</Label>
           <Value>info@pimhopmans.nl</Value>
         </Contact>
-        <ContactPrint>
-          <Label>Phone</Label>
-          <Value>+31 6 36493014</Value>
-        </ContactPrint>
-        <ContactPrint>
-          <Label>Website</Label>
-          <Value>www.pimhopmans.nl</Value>
-        </ContactPrint>
       </ContactInfo>
 
       <Socials>
@@ -58,11 +50,6 @@ const Container = styled.div`
     width: 300px;
     padding: 50px 0;
   }
-
-  @media print {
-    width: 100%;
-    padding: 0 0 50px 60px;
-  }
 `;
 const Name = styled.div`
   font-family: "CormorantGaramond-Bold";
@@ -70,11 +57,6 @@ const Name = styled.div`
   font-weight: bold;
 
   ${media(BreakPoint.s)} {
-    font-size: 50px;
-    margin-top: 40px;
-  }
-
-  @media print {
     font-size: 50px;
     margin-top: 40px;
   }
@@ -86,10 +68,6 @@ const Function = styled.div`
   ${media(BreakPoint.s)} {
     font-size: 20px;
   }
-
-  @media print {
-    font-size: 20px;
-  }
 `;
 const ContactInfo = styled.div``;
 const Contact = styled.div`
@@ -98,14 +76,6 @@ const Contact = styled.div`
 
   ${media(BreakPoint.s)} {
     justify-content: center;
-  }
-`;
-const ContactPrint = styled(Contact)`
-  display: none;
-  padding-top: 10px;
-
-  @media print {
-    display: flex;
   }
 `;
 const Label = styled.div`
@@ -120,10 +90,6 @@ const Socials = styled.div`
 
   ${media(BreakPoint.s)} {
     justify-content: center;
-  }
-
-  @media print {
-    display: none;
   }
 `;
 const Social = styled.a`
@@ -149,10 +115,6 @@ const ReadMore = styled.button`
     display: flex;
   }
   ${media(BreakPoint.xl)} {
-    display: none;
-  }
-
-  @media print {
     display: none;
   }
 `;

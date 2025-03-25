@@ -13,13 +13,7 @@ export const Experience = () => {
           (exp) =>
             exp.function && (
               <Entry>
-                {exp.function === "Developer" ? (
-                  <Print>
-                    <Date>{exp.date}</Date>
-                  </Print>
-                ) : (
-                  <Date>{exp.date}</Date>
-                )}
+                <Date>{exp.date}</Date>
                 <FunctionTitle>{exp.function}</FunctionTitle>
                 <Company>{exp.company}</Company>
                 <Location>{exp.location}</Location>
@@ -44,12 +38,6 @@ const Container = styled.div`
     width: 300px;
     padding: 50px 0;
   }
-
-  @media print {
-    width: 550px;
-    padding: 0;
-    padding-left: 15px;
-  }
 `;
 const Title = styled.div`
   display: flex;
@@ -69,11 +57,6 @@ const Divider = styled.div`
 const Body = styled.div`
   padding: 0 50px 0 10px;
   line-height: 30px;
-
-  @media print {
-    padding: 0;
-    padding-left: 20px;
-  }
 `;
 const Entry = styled.div`
   padding: 20px 0;
@@ -92,7 +75,4 @@ const Description = styled.div`
 const TechStack = styled.div`
   margin-top: 20px;
   font-style: italic;
-`;
-const Print = styled.div`
-  padding-top: 40px;
 `;

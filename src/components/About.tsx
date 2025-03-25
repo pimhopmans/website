@@ -44,9 +44,6 @@ const Container = styled.div`
     width: 300px;
     padding: 50px 0;
   }
-  @media print {
-    display: none;
-  }
 `;
 const Title = styled.div`
   display: flex;
