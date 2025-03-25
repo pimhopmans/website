@@ -15,6 +15,8 @@
     "techStack": [
       "React",
       "React Native",
+      "JavaScript",
+      "TypeScript",
       "Next.js",
       "Node.js",
       "Google Cloud Platform",
@@ -30,7 +32,7 @@
     "date": "August 2022 - December 2022",
     "location": "Utrecht, The Netherlands",
     "text": "Part-time job as an educator for new developers and interns that joined Hiro. Responsibilities include mentoring and coaching the new developers and maintaining the education programme.",
-    "techStack": ["React"]
+    "techStack": ["React", "JavaScript"]
   },
   {
     "function": "Developer",
@@ -40,6 +42,7 @@
     "text": "Reponsible for the development of several React frontend projects, including a new UI for the NPO Start CMS, a form management system for Nedap Healthcare and a voice assistant prototype for the NPO Start app. Also mentored interns from time to time.",
     "techStack": [
       "React",
+      "JavaScript",
       "Ruby on Rails",
       "Python",
       "PostgreSQL",

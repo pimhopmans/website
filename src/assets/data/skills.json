@@ -11,35 +11,44 @@
     "Prolog",
     "HTML/CSS"
   ],
-  "frameworks": ["React", "React Native", "Next.js", "Vite", "Vue", "FastAPI"],
+  "frameworks": [
+    "React",
+    "React Native",
+    "Next.js",
+    "Vite",
+    "Vue",
+    "Nuxt.js",
+    "FastAPI"
+  ],
   "libraries": [
     "axios",
+    "formik",
     "moment",
     "react-native-video",
     "react-native-purchases",
     "redux",
     "redux-persist",
     "styled-components",
-    "formik",
     "NumPy",
     "Pandas"
   ],
   "databases": ["MySQL", "PostgreSQL", "Firestore", "Elasticsearch"],
   "services": [
+    "Appstore Connect",
+    "Firebase",
+    "Fly.io",
+    "Cloud Run",
+    "Cloud Functions",
+    "Cloud Places API",
+    "Docker",
     "Git",
     "GitHub",
     "GitLab",
     "Google Cloud Platform",
-    "Cloud Run",
-    "Cloud Functions",
-    "Cloud Places API",
-    "Firebase",
-    "Fly.io",
-    "Strapi",
+    "Google Play Console",
     "MapBox",
     "RevenueCat",
-    "Google Play Console",
-    "Appstore Connect"
+    "Strapi"
   ],
-  "other": ["serverless backends"]
+  "other": ["agile scrum", "serverless backends"]
 }
