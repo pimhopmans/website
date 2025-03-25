@@ -24,6 +24,9 @@ export const Experience = () => {
                 <Company>{exp.company}</Company>
                 <Location>{exp.location}</Location>
                 <Description>{exp.text}</Description>
+                {exp.techStack && (
+                  <TechStack>{exp.techStack.join(", ")}</TechStack>
+                )}
               </Entry>
             )
         )}
@@ -85,6 +88,10 @@ const Company = styled.div``;
 const Location = styled.div``;
 const Description = styled.div`
   margin-top: 20px;
+`;
+const TechStack = styled.div`
+  margin-top: 20px;
+  font-style: italic;
 `;
 const Print = styled.div`
   padding-top: 40px;

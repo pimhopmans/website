@@ -11,28 +11,49 @@
     "company": "Bike Labyrinth",
     "date": "August 2022 - February 2025",
     "location": "The Hague, The Netherlands",
-    "text": "Technical lead of the in-house software development team at Bike Labyrinth. Projects include porting the current b2b software to React Native, developing the Bike Labyrinth Home app, maintaining the Bike Labyrinth website and managing a team developers."
+    "text": "Technical lead of the in-house software development team at Bike Labyrinth. Projects include porting the current b2b software to React Native, developing the Bike Labyrinth Home app, maintaining the Bike Labyrinth website and managing a team developers.",
+    "techStack": [
+      "React",
+      "React Native",
+      "Next.js",
+      "Node.js",
+      "Google Cloud Platform",
+      "PostgreSQL",
+      "Fly.io",
+      "Netlify",
+      "Strapi"
+    ]
   },
   {
     "function": "Educator",
     "company": "Hiro",
     "date": "August 2022 - December 2022",
     "location": "Utrecht, The Netherlands",
-    "text": "Part-time job as an educator for new developers and interns that joined Hiro. Responsibilities include mentoring and coaching the new developers and maintaining the education programme."
+    "text": "Part-time job as an educator for new developers and interns that joined Hiro. Responsibilities include mentoring and coaching the new developers and maintaining the education programme.",
+    "techStack": ["React"]
   },
   {
     "function": "Developer",
     "company": "Hiro",
     "date": "May 2019 - July 2022",
     "location": "Utrecht, The Netherlands",
-    "text": "Reponsible for the development of several React frontend projects, including a new UI for the NPO Start CMS, a form management system for Nedap Healthcare and a voice assistant prototype for the NPO Start app. Also mentored interns from time to time."
+    "text": "Reponsible for the development of several React frontend projects, including a new UI for the NPO Start CMS, a form management system for Nedap Healthcare and a voice assistant prototype for the NPO Start app. Also mentored interns from time to time.",
+    "techStack": [
+      "React",
+      "Ruby on Rails",
+      "Python",
+      "PostgreSQL",
+      "MySQL",
+      "FastAPI"
+    ]
   },
   {
     "function": "Teaching assistant",
     "company": "Utrecht University",
     "date": "April 2017 - Jan 2019",
     "location": "Utrecht, The Netherlands",
-    "text": "Responsible for leading work groups for several courses such as Introduction to Linguistics, Computational Linguistics and Semantics"
+    "text": "Responsible for leading work groups for several courses such as Introduction to Linguistics, Computational Linguistics and Semantics",
+    "techStack": ["Python", "Haskell"]
   },
   {
     "_function": "Bar manager",
