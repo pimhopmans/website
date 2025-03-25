@@ -1,17 +1,17 @@
 [
   {
-    "function": "Lead developer",
-    "company": "Bike Labyrinth",
-    "date": "August 2022 - present",
-    "location": "The Hague, The Netherlands",
-    "text": "Technical lead of the in-house software development team at Bike Labyrinth. Projects include porting the current b2b software to React Native, developing the Bike Labyrinth Home app, maintaining the Bike Labyrinth website and managing a team developers."
-  },
-  {
     "function": "Freelance software developer",
     "company": "Hopmans Development & Consultancy",
     "date": "February 2022 - present",
     "location": "Utrecht, The Netherlands",
     "text": "Independent software developer with a preference for web and app development or implementing AI and Machine Learning models. I am interested in jobs that require a keen eye, critical thinking and are socially responsible."
+  },
+  {
+    "function": "Lead developer",
+    "company": "Bike Labyrinth",
+    "date": "August 2022 - February 2025",
+    "location": "The Hague, The Netherlands",
+    "text": "Technical lead of the in-house software development team at Bike Labyrinth. Projects include porting the current b2b software to React Native, developing the Bike Labyrinth Home app, maintaining the Bike Labyrinth website and managing a team developers."
   },
   {
     "function": "Educator",
