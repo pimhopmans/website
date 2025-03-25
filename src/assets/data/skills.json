@@ -50,5 +50,5 @@
     "RevenueCat",
     "Strapi"
   ],
-  "other": ["agile scrum", "serverless backends"]
+  "other": ["agile scrum", "serverless backends", "GitHub Actions", "CI/CD"]
 }
