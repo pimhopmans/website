@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { BreakPoint, media } from "../lib/layout";
+import { colors } from "../lib/colors";
 
 export const About = () => {
   return (
@@ -8,28 +9,16 @@ export const About = () => {
         About <Divider />
       </Title>
       <Body>
-        <Hello>
-          Hi! My name's Pim, and I'm a Software Engineer that can do both
-          frontend, backend and a pinch of dev ops.
-        </Hello>
-
-        <Hello>
-          I prefer web and app development, but I am open to learn anything.
-          Next on my list is implementing AI and Machine Learning models.
-        </Hello>
-
-        <Hello>
-          I'm interested in jobs that require a detailed perspective, critical
-          thinking and are helpful to society.
-        </Hello>
-
-        <Hello>
-          I'm a fast learner of new skills, so don't let any missing skills on
-          this page stop you from contacting me. If you think we could be a
-          match, hit me up!
-        </Hello>
-
-        <Motto>If you put your mind to it, anything is possible.</Motto>
+        <Intro>
+          Hi, I'm Pim. I'm a full-stack engineer with a strong frontend
+          orientation and seven years of building products in JavaScript,
+          TypeScript and React (Native). Since 2022 I've led an in-house
+          development team, owning architecture and code quality while staying
+          hands-on across the stack, from React and React Native frontends to
+          Node.js APIs and the servers they run on. I also have a real affinity
+          with music and live events: alongside development I lead teams at
+          festivals such as Lowlands and Down The Rabbit Hole.
+        </Intro>
       </Body>
     </Container>
   );
@@ -52,23 +41,21 @@ const Title = styled.div`
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
+  color: ${colors.accent};
   margin-bottom: 24px;
 `;
 const Divider = styled.div`
   flex: 1;
   height: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid ${colors.rule};
   margin: 0 20px;
 `;
 const Body = styled.div`
   padding: 0 50px 0 10px;
   line-height: 30px;
+
+  ${media(BreakPoint.s)} {
+    padding: 0 0 0 10px;
+  }
 `;
-const Hello = styled.div`
-  margin-bottom: 30px;
-`;
-const Motto = styled.div`
-  font-family: "CormorantGaramond-Italic";
-  font-size: 20px;
-  margin-top: 20px;
-`;
+const Intro = styled.div``;

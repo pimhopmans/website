@@ -1,17 +1,27 @@
 import styled from "styled-components";
+import contactData from "../assets/data/contact.json";
 import { BreakPoint, media } from "../lib/layout";
+import { colors } from "../lib/colors";
 
 export const Contact = () => {
   return (
-    <Container id="bio">
+    <Container id="contact">
       <Title>
-        Contact <Divider />
+        Contact <Rule />
       </Title>
 
       <ContactInfo>
         <Contacts>
           <Label>Email</Label>
-          <Value>info@pimhopmans.nl</Value>
+          <Value>{contactData.email}</Value>
+        </Contacts>
+        <Contacts>
+          <Label>Location</Label>
+          <Value>{contactData.location}</Value>
+        </Contacts>
+        <Contacts>
+          <Label>Website</Label>
+          <Value>{contactData.website}</Value>
         </Contacts>
       </ContactInfo>
 
@@ -53,7 +63,14 @@ const Title = styled.div`
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
+  color: ${colors.accent};
   margin-bottom: 24px;
+`;
+const Rule = styled.div`
+  flex: 1;
+  height: 0;
+  border-bottom: 1px solid ${colors.rule};
+  margin: 0 20px;
 `;
 const ContactInfo = styled.div`
   padding-left: 10px;
@@ -68,7 +85,13 @@ const Contacts = styled.div`
 `;
 const Label = styled.div`
   font-family: "Montserrat-Bold";
+  color: ${colors.accent};
   margin-right: 10px;
+  flex: 0 0 80px;
+
+  ${media(BreakPoint.s)} {
+    flex: none;
+  }
 `;
 const Value = styled.div``;
 const Socials = styled.div`

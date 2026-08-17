@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import contact from "../assets/data/contact.json";
 import { smoothScroll } from "../lib/scroll";
 import { BreakPoint, isMobile, media } from "../lib/layout";
+import { colors } from "../lib/colors";
 import { MobileProfilePicture } from "./MobileProfilePicture";
 
 export const Bio = () => {
@@ -13,7 +15,15 @@ export const Bio = () => {
       <ContactInfo>
         <Contact>
           <Label>Email</Label>
-          <Value>info@pimhopmans.nl</Value>
+          <Value>{contact.email}</Value>
+        </Contact>
+        <Contact>
+          <Label>Location</Label>
+          <Value>{contact.location}</Value>
+        </Contact>
+        <Contact>
+          <Label>Website</Label>
+          <Value>{contact.website}</Value>
         </Contact>
       </ContactInfo>
 
@@ -80,7 +90,13 @@ const Contact = styled.div`
 `;
 const Label = styled.div`
   font-family: "Montserrat-Bold";
+  color: ${colors.accent};
   margin-right: 10px;
+  flex: 0 0 80px;
+
+  ${media(BreakPoint.s)} {
+    flex: none;
+  }
 `;
 const Value = styled.div``;
 const Socials = styled.div`

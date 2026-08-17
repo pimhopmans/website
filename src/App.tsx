@@ -7,6 +7,7 @@ import {
   Experience,
   Footer,
   Header,
+  LanguagesAndMore,
   MobileHeader,
   ProfilePicture,
   Skills,
@@ -24,8 +25,9 @@ const App = () => {
           <Bio />
           <About />
           <Experience />
-          <Education />
           <Skills />
+          <Education />
+          <LanguagesAndMore />
           <Contact />
           <Footer />
         </LeftContainer>

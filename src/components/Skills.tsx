@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import skills from "../assets/data/skills.json";
 import { media, BreakPoint } from "../lib/layout";
+import { colors } from "../lib/colors";
 
 export const Skills = () => {
   return (
@@ -9,75 +10,12 @@ export const Skills = () => {
         Skills <Divider />
       </Title>
       <Body>
-        <SkillSection>
-          <Label>Languages</Label>
-
-          <SkillContainer>
-            {skills.languages.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
-
-        <SkillSection>
-          <Label>Programming languages</Label>
-
-          <SkillContainer>
-            {skills.programming_languages.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
-
-        <SkillSection>
-          <Label>Frameworks</Label>
-
-          <SkillContainer>
-            {skills.frameworks.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
-
-        <SkillSection>
-          <Label>Libraries</Label>
-
-          <SkillContainer>
-            {skills.libraries.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
-
-        <SkillSection>
-          <Label>Databases</Label>
-
-          <SkillContainer>
-            {skills.databases.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
-
-        <SkillSection>
-          <Label>Services</Label>
-
-          <SkillContainer>
-            {skills.services.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
-
-        <SkillSection>
-          <Label>Other</Label>
-
-          <SkillContainer>
-            {skills.other.map((skill) => (
-              <Skill>{skill}</Skill>
-            ))}
-          </SkillContainer>
-        </SkillSection>
+        {skills.map((section) => (
+          <SkillSection key={section.label}>
+            <Label>{section.label}</Label>
+            <Values>{section.items.join(" · ")}</Values>
+          </SkillSection>
+        ))}
       </Body>
     </Container>
   );
@@ -100,30 +38,42 @@ const Title = styled.div`
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
+  color: ${colors.accent};
   margin-bottom: 36px;
 `;
 const Divider = styled.div`
   flex: 1;
   height: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid ${colors.rule};
   margin: 0 20px;
 `;
 const Body = styled.div`
   line-height: 30px;
   padding: 0 50px 0 10px;
+
+  ${media(BreakPoint.s)} {
+    padding: 0 0 0 10px;
+  }
 `;
 const SkillSection = styled.div`
+  display: flex;
+  gap: 16px;
   margin-top: 20px;
+
+  ${media(BreakPoint.s)} {
+    flex-direction: column;
+    gap: 0;
+  }
 `;
 const Label = styled.div`
   font-family: "Montserrat-Bold";
-  margin-bottom: 20px;
+  color: ${colors.accent};
+  flex: 0 0 130px;
+
+  ${media(BreakPoint.s)} {
+    flex: none;
+  }
 `;
-const SkillContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
-const Skill = styled.div`
-  line-height: 20px;
-  padding: 5px 10px;
+const Values = styled.div`
+  flex: 1;
 `;

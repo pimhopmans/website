@@ -1,24 +1,24 @@
 import styled from "styled-components";
-import education from "../assets/data/education.json";
+import languages from "../assets/data/languages.json";
 import { BreakPoint, media } from "../lib/layout";
 import { colors } from "../lib/colors";
 
-export const Education = () => {
+export const LanguagesAndMore = () => {
   return (
-    <Container id="education">
+    <Container id="languages">
       <Title>
-        Education <Divider />
+        Languages &amp; more <Divider />
       </Title>
       <Body>
-        {education.map((edu) => (
-          <Entry key={edu.programme}>
-            <Programme>{edu.programme}</Programme>
-            <Institute>
-              {edu.institution}, {edu.location}
-            </Institute>
-            <Date>{edu.date}</Date>
-          </Entry>
-        ))}
+        <Section>
+          <Label>Languages</Label>
+          <Value>{languages.languages.join(" · ")}</Value>
+        </Section>
+
+        <Section>
+          <Label>Interests</Label>
+          <Value>{languages.interests}</Value>
+        </Section>
       </Body>
     </Container>
   );
@@ -58,14 +58,11 @@ const Body = styled.div`
     padding: 0 0 0 10px;
   }
 `;
-const Entry = styled.div`
-  padding: 20px 0;
+const Section = styled.div`
+  margin-top: 20px;
 `;
-const Programme = styled.div`
+const Label = styled.div`
   font-family: "Montserrat-Bold";
+  color: ${colors.accent};
 `;
-const Institute = styled.div`
-  font-family: "Montserrat-Italic";
-  color: ${colors.muted};
-`;
-const Date = styled.div``;
+const Value = styled.div``;

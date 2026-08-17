@@ -1,54 +1,81 @@
-{
-  "languages": ["Dutch", "English"],
-  "programming_languages": [
-    "JavaScript",
-    "TypeScript",
-    "Node.js",
-    "Python",
-    "Ruby on Rails",
-    "Java",
-    "Haskell",
-    "Prolog",
-    "HTML/CSS"
-  ],
-  "frameworks": [
-    "React",
-    "React Native",
-    "Next.js",
-    "Vite",
-    "Vue",
-    "Nuxt.js",
-    "FastAPI"
-  ],
-  "libraries": [
-    "axios",
-    "formik",
-    "moment",
-    "react-native-video",
-    "react-native-purchases",
-    "redux",
-    "redux-persist",
-    "styled-components",
-    "NumPy",
-    "Pandas"
-  ],
-  "databases": ["MySQL", "PostgreSQL", "Firestore", "Elasticsearch"],
-  "services": [
-    "Appstore Connect",
-    "Firebase",
-    "Fly.io",
-    "Cloud Run",
-    "Cloud Functions",
-    "Cloud Places API",
-    "Docker",
-    "Git",
-    "GitHub",
-    "GitLab",
-    "Google Cloud Platform",
-    "Google Play Console",
-    "MapBox",
-    "RevenueCat",
-    "Strapi"
-  ],
-  "other": ["agile scrum", "serverless backends", "GitHub Actions", "CI/CD"]
-}
+[
+  {
+    "label": "Languages",
+    "items": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Ruby on Rails",
+      "Java",
+      "Haskell",
+      "Prolog",
+      "HTML/CSS",
+      "SQL"
+    ]
+  },
+  {
+    "label": "Frontend",
+    "items": [
+      "React",
+      "React Native",
+      "Next.js",
+      "Vue",
+      "Vite",
+      "Redux & redux-persist",
+      "styled-components",
+      "formik",
+      "production build optimisation"
+    ]
+  },
+  {
+    "label": "Backend & APIs",
+    "items": [
+      "Node.js",
+      "FastAPI",
+      "REST API design and maintenance",
+      "serverless backends",
+      "Cloud Functions",
+      "Prisma",
+      "Strapi"
+    ]
+  },
+  {
+    "label": "Databases",
+    "items": ["PostgreSQL", "MySQL", "Firestore", "Elasticsearch"]
+  },
+  {
+    "label": "DevOps & tooling",
+    "items": [
+      "CI/CD",
+      "GitHub Actions",
+      "Git / GitHub / GitLab",
+      "Docker",
+      "Google Cloud Platform",
+      "Firebase",
+      "Fly.io",
+      "App Store Connect & Google Play Console"
+    ]
+  },
+  {
+    "label": "Practices",
+    "items": [
+      "Design patterns",
+      "unit & integration testing",
+      "code review",
+      "observability & monitoring",
+      "agile / process improvement",
+      "technical mentoring"
+    ]
+  },
+  {
+    "label": "Other",
+    "items": [
+      "MapBox",
+      "RevenueCat",
+      "axios",
+      "NumPy",
+      "Pandas",
+      "AI / machine learning models"
+    ]
+  }
+]

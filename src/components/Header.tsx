@@ -10,8 +10,9 @@ export const Header = () => {
         <NavItem onClick={() => smoothScroll("#experience")}>
           experience
         </NavItem>
-        <NavItem onClick={() => smoothScroll("#education")}>education</NavItem>
         <NavItem onClick={() => smoothScroll("#skills")}>skills</NavItem>
+        <NavItem onClick={() => smoothScroll("#education")}>education</NavItem>
+        <NavItem onClick={() => smoothScroll("#languages")}>languages</NavItem>
       </Nav>
     </Container>
   );

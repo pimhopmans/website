@@ -4,7 +4,7 @@ import { BreakPoint, media } from "../lib/layout";
 export const Footer = () => {
   return (
     <Container>
-      <Body>© 2024 by Pim Hopmans. Made with React + Vite.</Body>
+      <Body>© 2026 by Pim Hopmans. Made with React + Vite.</Body>
     </Container>
   );
 };
